@@ -1,0 +1,30 @@
+#tree-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #tree-svg {
+    width: 800px;
+    height: 600px;
+    border: 1px solid #ccc;
+  }
+  
+  .node {
+    fill: #fff;
+    stroke: #000;
+  }
+  
+  .node text {
+    font-size: 20px;
+    text-anchor: middle;
+    fill: #000;
+  }
+  
+  .arrow {
+    stroke: #000;
+    stroke-width: 2px;
+    fill: none;
+  }
+  
