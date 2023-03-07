@@ -30,18 +30,14 @@ class Node {
           if (!current.left) {
             current.left = node;
             current = current.left;
-            // break;
           }
           }  
-          // else 
           {
           if (!current.right) {
             current.right = node;
             current = current.right;
-            // break;
           }
-          // if(flag==false)
-          // flag=!flag;
+
         }
       }
     }
